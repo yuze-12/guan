@@ -1,0 +1,47 @@
+# ===== 自动同步工具写入，可按需删改（删掉某行就会开始同步该类文件）=====
+# ---- 编译产物 / 依赖 / 缓存 ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+node_modules/
+build/
+dist/
+out/
+obj/
+target/
+*.o
+*.obj
+*.class
+*.tmp
+*.bak
+*.log
+*.swp
+
+# ---- 论文 / 文档 / 演示文稿（默认只同步代码；想把论文也传上去，删掉这一段即可） ----
+*.doc
+*.docx
+*.docm
+*.pdf
+*.ppt
+*.pptx
+*.pptm
+*.wps
+*.dps
+*.key
+*.pages
+~$*
+.~lock.*#
+
+# ---- 系统文件和编辑器配置 ----
+.env
+.env.*
+*.env
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+/git-sync/
